@@ -80,6 +80,4 @@ class ProductManagerTest {
         assertEquals("Shirt", productsInRange.get(0).getName());
         assertEquals("Book", productsInRange.get(1).getName());
     }
-
-
 }
