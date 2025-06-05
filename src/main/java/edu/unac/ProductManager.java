@@ -39,5 +39,4 @@ public class ProductManager {
             .filter(p -> p.getPrice() >= min && p.getPrice() <= max)
             .collect(Collectors.toList());
     }
-
 }
